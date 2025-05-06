@@ -20,7 +20,7 @@ I’m an Electronics and Communication Engineering student at JSSSTU, with a gro
 
 ## 🤝 Acknowledgment
 
-This website was created by me, with some help from **AI-based suggestions** for polishing design and layout. The code and structure remain entirely customized and tailored to reflect my vision and goals.
+This website was created with the help of AI-based suggestions for structure, content flow, and design refinement. While I don’t have a background in web development, the customization, decisions, and final vision reflect my own ideas and intent. It's a simple step forward — making use of tools available today to share a piece of who I am.
 
 ## 📩 Contact
 
@@ -31,4 +31,3 @@ This website was created by me, with some help from **AI-based suggestions** for
 ## © 2025 Inesh Candade
 
 All rights reserved.
-
