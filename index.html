@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Inesh Candade | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #1c1c1c;
+      color: #f5f5f5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      text-align: center;
+      animation: fadeIn 1s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    img.profile-pic {
+      border-radius: 50%;
+      width: 170px;
+      height: 170px;
+      object-fit: cover;
+      margin-bottom: 25px;
+      border: 4px solid #7f5af0;
+      box-shadow: 0 0 12px #7f5af0;
+      transition: all 0.3s ease;
+    }
+
+    img.profile-pic:hover {
+      box-shadow: 0 0 20px #a78bfa;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      color: #7f5af0;
+    }
+
+    p.about {
+      font-size: 1.4rem;
+      line-height: 1.8;
+      margin: 25px 0 40px;
+      color: #d0d0d0;
+      padding: 0 15px;
+    }
+
+    .icons a {
+      margin: 0 12px;
+      display: inline-block;
+    }
+
+    .icons img {
+      width: 40px;
+      height: 40px;
+      background-color: #ffffff;
+      border-radius: 50%;
+      padding: 6px;
+      transition: transform 0.3s ease, filter 0.3s ease;
+    }
+
+    .icons img:hover {
+      transform: scale(1.2);
+      filter: brightness(120%);
+    }
+
+    .contact {
+      margin-top: 40px;
+      font-size: 1.1rem;
+      color: #bbb;
+    }
+
+    .contact a {
+      color: #7f5af0;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 60px;
+      padding-top: 20px;
+      font-size: 0.9rem;
+      color: #888;
+      border-top: 1px solid #333;
+    }
+
+    footer p:first-child {
+      font-style: italic;
+      color: #aaa;
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img class="profile-pic" src="https://i.postimg.cc/7YBxbwWg/IMG-20250506-WA0001.jpg" alt="Inesh Candade">
+
+    <h1>Inesh Candade</h1>
+
+    <p class="about">
+      I’m an Electronics and Communication Engineering student at JSSSTU, driven by curiosity and a passion for emerging technologies.<br>
+      My focus areas include microcontrollers, IoT systems, and VLSI design.<br>
+      Through my personal brand, <strong>Candade LabWorks</strong>, I take on real-world tech challenges by building hands-on projects that blend hardware with intelligent systems.<br>
+      I’m always eager to learn, adapt, and push deeper into the evolving world of electronics and innovation.
+    </p>
+
+    <div class="icons">
+      <a href="https://github.com/ineshcandade" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+      </a>
+
+      <a href="https://www.linkedin.com/in/inesh-candade/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+      </a>
+
+      <a href="https://www.youtube.com/@candadelabworks" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
+      </a>
+    </div>
+
+    <div class="contact">
+      <p>Email: <a href="mailto:ineshcandade@gmail.com">ineshcandade@gmail.com</a></p>
+    </div>
+
+    <footer>
+      <p>From curiosity to circuitry — one project at a time.</p>
+      <p>© 2025 Inesh Candade. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
