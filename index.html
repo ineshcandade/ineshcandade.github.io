@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inesh Candade | Portfolio</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0e0e0e, #1a1a1a);
+      color: #e5e5e5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      text-align: center;
+    }
+
+    /* Fade-in animation */
+    .fade-in {
+      opacity: 0;
+      animation: fadeIn 1s forwards;
+    }
+
+    .fade-delay-1 { animation-delay: 0.3s; }
+    .fade-delay-2 { animation-delay: 0.6s; }
+    .fade-delay-3 { animation-delay: 0.9s; }
+    .fade-delay-4 { animation-delay: 1.2s; }
+    .fade-delay-5 { animation-delay: 1.5s; }
+
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+      color: #e5e5e5;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .profile-pic {
+      border-radius: 50%;
+      width: 170px;
+      height: 170px;
+      object-fit: cover;
+      border: 4px solid #a78bfa;
+      box-shadow: 0 0 6px #a78bfa;
+      transition: all 0.35s ease, box-shadow 0.35s ease;
+      margin-bottom: 25px;
+    }
+
+    .profile-pic:hover {
+      box-shadow: 0 0 16px #a78bfa, 0 0 30px rgba(167, 139, 250, 0.4);
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+
+    .tagline {
+      font-style: italic;
+      color: #aaa;
+      font-size: 1.05rem;
+      margin-bottom: 30px;
+      letter-spacing: 1.5px;
+    }
+
+    .about {
+      font-size: 1.15rem;
+      line-height: 1.7;
+      color: #e5e5e5;
+      margin: 0 auto 40px auto;
+      max-width: 700px;
+      padding: 0 20px;
+      text-align: center;
+      letter-spacing: 0.3px;
+    }
+
+    .about strong {
+      color: #a78bfa;
+    }
+
+    .icons {
+      margin-bottom: 25px;
+    }
+
+    .icons a {
+      margin: 0 12px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #0e0e0e;
+      border: 2px solid #a78bfa;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+
+    .icons a:hover {
+      transform: scale(1.2);
+      box-shadow: 0 0 15px #a78bfa, 0 0 30px rgba(167, 139, 250, 0.4);
+    }
+
+    .icons img {
+      width: 24px;
+      height: 24px;
+      filter: invert(85%);
+    }
+
+    .contact {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .contact a {
+      color: #e5e5e5;
+      text-decoration: none;
+    }
+
+    .contact a:hover,
+    .contact a:focus {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    /* Compact Resume button */
+    .resume-button {
+      display: inline-block;
+      padding: 7px 16px;
+      margin-bottom: 35px;
+      border: 1.5px solid #a78bfa;
+      border-radius: 7px;
+      color: #e5e5e5;
+      text-decoration: none;
+      font-size: 0.92rem;
+      font-weight: 500;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .resume-button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 12px #a78bfa, 0 0 24px rgba(167, 139, 250, 0.4);
+      cursor: pointer;
+    }
+
+    footer {
+      font-size: 0.9rem;
+      color: #aaa;
+      text-align: center;
+      border-top: 1px solid #333;
+      padding-top: 18px;
+      margin-top: 25px;
+      line-height: 1.6;
+    }
+
+    footer p:first-child {
+      font-style: italic;
+      color: #e5e5e5;
+      margin-bottom: 6px;
+    }
+
+    @media (max-width: 600px) {
+      .about {
+        font-size: 1rem;
+        text-align: center;
+        line-height: 1.55;
+        padding: 0 15px;
+        overflow-wrap: break-word;
+        word-break: normal;
+      }
+
+      .profile-pic {
+        width: 130px;
+        height: 130px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .icons a {
+        width: 45px;
+        height: 45px;
+      }
+
+      .icons img {
+        width: 22px;
+        height: 22px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1 class="fade-in fade-delay-1">Inesh Candade</h1>
+
+    <img
+      class="profile-pic fade-in fade-delay-2"
+      src="https://i.postimg.cc/KvPLWtPm/Whats-App-Image-2026-09-06-at-2-25-46-PM.jpg"
+      alt="Inesh Candade"
+    >
+
+    <div class="tagline fade-in fade-delay-3">
+      Precision. Passion. Possibility.
+    </div>
+
+    <p class="about fade-in fade-delay-4">
+      I’m an Electronics and Communication Engineering student at JSSSTU,
+      focusing on microcontrollers, IoT, and embedded systems.
+      Through my personal brand, <strong>Candade LabWorks</strong>, I build
+      practical projects that bridge theory with real-world applications.
+    </p>
+
+    <div class="icons fade-in fade-delay-5">
+
+      <a href="https://github.com/ineshcandade"
+         target="_blank"
+         rel="noopener noreferrer">
+        <img
+          src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg"
+          alt="GitHub">
+      </a>
+
+      <a href="https://www.linkedin.com/in/inesh-candade/"
+         target="_blank"
+         rel="noopener noreferrer">
+        <img
+          src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
+          alt="LinkedIn">
+      </a>
+
+      <a href="https://www.youtube.com/@candadelabworks"
+         target="_blank"
+         rel="noopener noreferrer">
+        <img
+          src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg"
+          alt="YouTube">
+      </a>
+
+    </div>
+
+    <div class="contact fade-in fade-delay-5">
+      <a href="mailto:candadelabworks@gmail.com">
+        candadelabworks@gmail.com
+      </a>
+    </div>
+
+    <a
+      class="resume-button fade-in fade-delay-5"
+      href="https://drive.google.com/file/d/15H1fDpM3DeVcigeFnxHn-YvoPMdq4R5S/view?usp=drivesdk"
+      target="_blank"
+      rel="noopener noreferrer">
+      View Resume
+    </a>
+
+    <footer class="fade-in fade-delay-5">
+      <p>Curiosity to circuitry — one project at a time.</p>
+      <p>© Inesh Candade. All rights reserved.</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
